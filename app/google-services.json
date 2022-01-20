@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "473178840746",
+    "firebase_url": "https://campus-voting-systemcvs-c23ad.firebaseio.com",
+    "project_id": "campus-voting-systemcvs-c23ad",
+    "storage_bucket": "campus-voting-systemcvs-c23ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473178840746:android:6dc16ba4216fa718f77ad3",
+        "android_client_info": {
+          "package_name": "com.example.campusvotingsystemcvs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473178840746-qpi6e8e4cas295sqbduuuevue17r66cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campusvotingsystemcvs",
+            "certificate_hash": "d12b6a11662b670f6f1efce7b8e9966a034737dd"
+          }
+        },
+        {
+          "client_id": "473178840746-7vq297ne7p03jhpdgnl0uvkqc52ct40j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campusvotingsystemcvs",
+            "certificate_hash": "3d16efa2782d153e2081234f63c86e6e79e1a665"
+          }
+        },
+        {
+          "client_id": "473178840746-bp1mq2krmh3fa7o51b10fj20rp7jjd2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WNdvUUST39qq8UYxl6M8t2v5KUl-4wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473178840746-bp1mq2krmh3fa7o51b10fj20rp7jjd2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

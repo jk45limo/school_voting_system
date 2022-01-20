@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    >
+
+
+    <EditText
+        android:id="@+id/txtregno"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/round_username"
+        android:drawableLeft="@drawable/ic_action_username1"
+        android:ems="10"
+        android:fontFamily="@font/abril_fatface"
+        android:hint="Enter Registration No"
+        android:textColor="#0C0F0F"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/txtregno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_password"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:textColor="#0C0F0F"
+        android:fontFamily="@font/abril_fatface"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="92dp"
+        app:srcCompat="@drawable/round" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="248dp"
+        android:background="@drawable/custom_button"
+        android:enabled="true"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:fontFamily="@font/alegreya"
+        android:text="Your Vote!!, Your Future!!"
+        android:textColor="#012705"
+        android:textSize="20dp" />
+
+</RelativeLayout>

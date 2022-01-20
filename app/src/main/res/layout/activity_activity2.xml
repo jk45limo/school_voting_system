@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".activity2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="92dp"
+        app:srcCompat="@drawable/round" />
+
+
+    <TextView
+        android:id="@+id/kura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Kura Yako!!! Siri Yako!!!"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#154105"
+        />
+
+    <Button
+        android:id="@+id/del"
+        android:layout_below="@+id/kura"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_3"
+        android:text="Delagates"
+        android:fontFamily="@font/abril_fatface"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/scouncil"
+        android:layout_below="@+id/del"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_3"
+        android:fontFamily="@font/abril_fatface"
+        android:text="S.G.C."
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scouncil"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="#0A0304"
+        android:textStyle="bold"
+        android:layout_marginTop="42sp"
+        android:text="Simple,Transparent,Honest and Reliable"
+
+        />
+
+
+</RelativeLayout>

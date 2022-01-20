@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Campus Voting System(C.V.S)</string>
+    <string name="school_of_agriculture_biotechnology"><![CDATA[School Of Agriculture & Biotechnology]]></string>
+    <string name="school_of_agriculture_biotech"><![CDATA[School of Agriculture & Biotechnology]]></string>
+    <string name="school_of_science_technology"><![CDATA[School of Science & Technology.]]></string>
+    <string name="submit_vote">Submit Vote</string>
+
+
+    <string name="prompt_email">Email/ID</string>
+    <string name="prompt_password">Enter Password Here</string>
+    <string name="prompt_code">Enter Code Here</string>
+    <string name="action_send_code">Send Code</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="confirmation_title">Confirmation</string>
+    <string name="data_loading">"Loading …"</string>
+    <string name="confirmation_message">Are you sure you want to submit vote(s)?</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="user_status1">ONLINE</string>
+    <string name="user_help">Help</string>
+    <string name="About">About</string>
+    <string name="action_poll_vote">Poll Vote</string>
+    <string name="action_view_result">View Result</string>
+    <string name="action_submit_vote">Submit</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_poll">Poll</string>
+    <string name="title_activity_results">Result</string>
+    <string name="vote_text">Votes</string>
+    <string name="poll_time">Poll Time:</string>
+    <string name="candidate_name">Candidate</string>
+    <string name="text_end">END</string>
+    <string name="text_user_guide">User Guide</string>
+    <string-array name="user_guide_array">
+        <item>Sign-in Activity:
+Sign-in activity is comprise of:
+1). Email Input Field: In this input field, users will fill-in their registered email
+ID.
+2). Send Code Button: Users will have to press this button after filling their
+email in above input field.
+3). Code Input Field: Here users will have to enter the security code sent to their
+emails by the firebase server.
+4). Sign-in Button: Users wants to sign-in to the system will press this button
+after filling the required credentials in above given fields.</item>
+        <item>Profile Activity:
+Signed-in uses will be redirected to the profile activity. This activity is comprise of:
+1). User ID: It is a simple text showing the user status.
+2). Poll Button: Users will press this button in order to cast vote in the poll.
+3). Result Button: Users can view results by pressing this button.
+4). Sign-out Button: Users will sign-out through this button.</item>
+        <item>Poll Activity:
+Poll activity is the activity where users will cast their votes for candidates. This activity is
+comprised of:
+1). Sliding Tabs: Poll activity contains sliding tabs. Each tab has a list of
+candidates of the same category.
+2). Candidates’ list: Candidates are populated from the database in individual
+tab.
+3). Candidate’ data: Candidate’s includes, name, photo, symbol and a selector
+for vote casting.
+4). Submit Button: User wants to submit the votes will press this button.</item>
+        <item>Results Activity:
+The result activity is composed of:
+1). Sliding tabs: Tabs containing lists of candidates populated by the firebase
+server.
+2). Candidates’ lists: Each list is comprising of candidates of the same category
+showing the collective result from the database.</item>
+    </string-array>
+</resources>

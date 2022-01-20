@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".activity_3">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="92dp"
+        app:srcCompat="@drawable/round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kura Yako!!! Siri Yako!!!"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="21dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textStyle="bold"
+        android:textColor="#104604"
+        />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Kindly Choose your appropriate School."
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/scie"
+        android:layout_below="@+id/head"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom_button_3"
+        android:text="@string/school_of_science_technology"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:fontFamily="@font/abril_fatface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/edu"
+        android:layout_below="@+id/scie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="School of Education"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:background="@drawable/custom_button_3"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/biz"
+        android:layout_below="@+id/edu"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="School of Business"
+        android:fontFamily="@font/abril_fatface"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:background="@drawable/custom_button_3"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/agric"
+        android:layout_below="@+id/biz"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="@string/school_of_agriculture_biotech"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:background="@drawable/custom_button_3"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="318dp" />
+
+
+        />
+
+
+</RelativeLayout>

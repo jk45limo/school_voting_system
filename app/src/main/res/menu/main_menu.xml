@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/poll_timeView"
+        android:title="@string/poll_time"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/user_help"
+        app:showAsAction="never" />
+
+    <!--<item android:id="@+id/action_about"-->
+        <!--android:title="@string/About"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item android:id="@+id/user_status"
+        android:title="@string/user_status1"
+        app:showAsAction="never"/>
+
+</menu>
